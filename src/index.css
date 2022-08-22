@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+p, h4 {
+  text-align: center;
+}
+
 .app {
   display: flex;
   flex-direction: column;
@@ -23,6 +27,7 @@ code {
   margin: auto;
   display: flex;
   justify-content: space-around;
+  align-items: baseline;
 }
 
 ul {
@@ -41,6 +46,8 @@ ul {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 1px 1px 4px black;
 }
 .icon {
   height: 1rem;
@@ -60,3 +67,21 @@ ul {
   height: 10rem;
 }
 
+.social-media-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-me{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
