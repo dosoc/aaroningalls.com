@@ -25,6 +25,12 @@ p {
 a, li {
   display: flex;
   align-items: center;
+  text-decoration: none;
+  color:black;
+}
+
+a:hover {
+  font-weight: 600;
 }
 
 .app {

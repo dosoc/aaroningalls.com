@@ -17,6 +17,7 @@ const Profile = () => {
             <div className='profile'>
                 <h2>Aaron Ingalls</h2>
                 <p>Full Stack Web | Software Engineer</p>
+                <p>Bloomtech Graduate 2022</p>
             </div>
             <div>
                 <ul className='skills'>
