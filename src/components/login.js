@@ -20,20 +20,22 @@ const Login = () => {
     return (
         <div className='container'>
             <h1>Login</h1>
-            <form>
+            <form className='login'>
                 <input 
+                    type='text'
                     name='username'
                     placeholder='Username'
                     onChange={setForm}
                     />
                     <br/>
                 <input 
+                    type='password'
                     name='password'
                     placeholder='Password'
                     onChange={setForm}
                     />
                     <br/>
-                <button>Login</button>
+                <button className='login-button'>Login</button>
             </form>
         </div>
     )
