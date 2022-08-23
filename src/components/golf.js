@@ -36,6 +36,7 @@ const Golf = () => {
                 <h2>Golf Results</h2>
                 <p>I like to play competetive amature golf as a hobbie<br/>
                 I am using this as a blog/tracker to keep track of my results</p>
+                <p>Work In Progress</p>
             </div>
             <div>
                 <form onSubmit={addResults}>
